@@ -134,7 +134,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 	@Override
 	public void onDataChanged() {
 		updateTableView();
-	}
+	} 
 
 	private void initEditButtons() {
 		tableColumnEDIT.setCellValueFactory(param -> new ReadOnlyObjectWrapper<>(param.getValue()));
